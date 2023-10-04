@@ -1,0 +1,183 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #E5EAE0;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    color: #C2B084;
+    padding: 100px 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    background-color: #7c8a79; 
+}
+
+section {
+    background-color: #E5EAE0;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2, h3, p, ul, form {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+button#cta {
+    display: block;
+    margin: 20px auto;
+    background-color: #7c8a79;
+    color: #E5EAE0;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button#cta:hover {
+    background-color: #9F8C5D;
+}
+
+.case-study {
+    margin-bottom: 20px;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+form .form-group {
+    margin-bottom: 15px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea,
+form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form input[type="submit"] {
+    background-color: #7c8a79;
+    color: #E5EAE0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form input[type="submit"]:hover {
+    background-color: #9F8C5D;
+}
+
+/* Ajuste de flechas de navegación */
+.carousel-control-prev, .carousel-control-next {
+    width: 5%;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.advantages-list, .disadvantages-list {
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.advantages-list {
+    background-color: #E5EAE0; /* color verde claro del logo */
+    margin-bottom: 30px;
+}
+
+.icon-tick, .icon-cross {
+    font-size: 24px;
+    width: 30px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.icon-tick {
+    color: #4CAF50; /* color dorado del logo */
+}
+
+.icon-cross {
+    color: #9F8C5D; /* color dorado un poco más oscuro */
+}
+
+li {
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+button#suscr {
+    display: block;
+    margin: 20px auto;
+    background-color: #7c8a79;
+    color: #E5EAE0;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button#suscr:hover {
+    background-color: #9F8C5D;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#back-to-top {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    z-index: 9999;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    line-height: 30px;
+    background-color: #7c8a79;
+    color: #E5EAE0;
+    cursor: pointer;
+    border: 0;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: opacity 0.2s ease-out;
+    opacity: 0.5;
+}
+
+#back-to-top:hover {
+    opacity: 1;
+}
+
+
